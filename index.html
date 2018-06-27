@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tabla editable</title>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="tabla-editable.js"></script>
+	
+</head>
+<body>
+	<div class="te"></div>
+	<script type="text/javascript">
+		var te=$(".te");
+		var json=[{id:1,nombre:"Roger Alvarez",direccion:"Zona 9",telefono:"88280515"},{id:2,nombre:"Croovy Camacho",direccion:"Zona 3",telefono:"88280516"}];
+		tablaEditable(json,te);
+	</script>
+</body>
+</html>
